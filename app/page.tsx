@@ -8,7 +8,7 @@ export default async function Home() {
   console.log(products);
 
   return (
-    <main className="">
+    <main className="min-h-screen max-w-7xl mx-auto px-8">
       <section className="flex flex-col space-y-12 pb-44">
         <h1 className="text-5xl font-bold text-center">DEAL OF THE DAY</h1>
 
