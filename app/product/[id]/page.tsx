@@ -1,5 +1,5 @@
 function ProductPage() {
-  return <div>Product Page</div>;
+  return <div>ProductPage</div>
 }
 
 export default ProductPage;
