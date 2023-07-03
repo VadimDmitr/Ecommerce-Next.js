@@ -8,7 +8,7 @@ type Props = {
 function Product({ product }: Props) {
   return (
     <Link
-      //prefetch={false}
+      prefetch={false}
       href={`/product/${product.id}`}
       className="h-96 flex flex-col p-5 rounded border group hover:scale-105 transition-transform ease-out duration-200"
     >
