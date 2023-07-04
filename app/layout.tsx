@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
