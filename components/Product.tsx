@@ -10,7 +10,7 @@ function Product({ product }: Props) {
     <Link
       prefetch={false}
       href={`/product/${product.id}`}
-      className="h-96 flex flex-col p-5 rounded border group hover:scale-105 transition-transform ease-out duration-200"
+      className="bg-white h-96 flex flex-col p-5 rounded-lg border-2 shadow-neumorphic group hover:scale-105 transition-transform ease-out duration-200"
     >
       <div className="relative max-h-72 flex-1">
         <ProductImage product={product} fill />
