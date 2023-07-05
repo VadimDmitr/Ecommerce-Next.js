@@ -1,22 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About The Project
+
+This is a ecommerce [Next.js](https://nextjs.org/) V.13.4 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Project Link: [https://vadimnextecom.vercel.app/](https://vadimnextecom.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following software installed on your system:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js and npm: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/VadimDmitr/ecommerce-next.js.git
+
+   ### Installation
+
+2. Install dependencies:
+
+   Navigate to the project directory:
+
+   ```bash
+   cd ecommerce-next.js
+   ```
+
+   Install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Your site should now be accessible at `http://localhost:3000`.
+
+## Built With
+
+- [Next.js](https://nextjs.org/) V.13
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Contact
+
+Vadim - vadzzimluch@gmail.com - [LinkedIn Profile](https://www.linkedin.com/in/vadim-dmitrochenko-14a88b221)
 
 ## Learn More
 
